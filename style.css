@@ -109,8 +109,8 @@ body {
     }
 
     .nav__bar .nav__bar-line {
-        width: 28px;
-        height: 3.5px;
+        width: 24px;
+        height: 3px;
         margin: 4px auto;
     }
 }
