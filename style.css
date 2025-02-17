@@ -151,14 +151,16 @@ section {
 }
 
 .media {
-    width: auto;
+    max-width: auto;
     height: auto;
+    margin: 0 auto;
 }
 
 .media__video,
 .media__frame,
 .media__graph {
     width: 100%;
+    
 }
 
 .banner {
