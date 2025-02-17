@@ -59,18 +59,60 @@ body {
     border-bottom: 1px solid var(--color-blue-light);
     transition: var(--transition-5s);
     padding: 1rem;
+    position: relative;
+    
 
     .nav__logo {
         font-size: 2rem;
         font-weight: 700;
         line-height: 2.2rem;
         transition: var(--transition-3s);
+        text-decoration: none;
+        color: var(--color-blue-dark);
     }
 }
+
 
 .nav__menu,
 .nav__btn {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 79%;
+    padding: 1em;
+    background-color: var(--color-white);
+    text-align: right;
+    border: 1px solid var(--color-blue-light);
+}
+
+.nav__item {
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+     
+    a {
+        text-decoration: none;
+        color: var(--color-blue-dark);
+    }
+}
+
+.nav__login {
+    text-decoration: none;
+}
+
+.container__botao:checked~.nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container__botao {
+    display: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .nav__bar {
@@ -85,6 +127,10 @@ body {
         margin: 3px auto;
         transition: var(--transition-l);
     }
+}
+
+.nav__item a:hover {
+    color: var(--color-blue-vivid);
 }
 
 /* NAV END*/
@@ -243,7 +289,7 @@ section {
     }
 
     a {
-        line-height: 0.7rem;
+        line-height: 0.9rem;
         font-weight: 500;
     }
 
