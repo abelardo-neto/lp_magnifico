@@ -55,7 +55,12 @@ main {
 }
 
 /* NAV START */
-.nav {
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile {
     width: 100%;
     display: flex;
     align-items: center;
@@ -64,16 +69,15 @@ main {
     transition: var(--transition-5s);
     padding: 1rem;
     position: relative;
-    
+}
 
-    .nav__logo {
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 2.2rem;
-        transition: var(--transition-3s);
-        text-decoration: none;
-        color: var(--color-blue-dark);
-    }
+.nav__logo {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    transition: var(--transition-3s);
+    text-decoration: none;
+    color: var(--color-blue-dark);
 }
 
 
