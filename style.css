@@ -49,6 +49,10 @@ body {
         padding-left: 1rem;
     }
 }
+main {
+    max-width: 1980px;
+    margin: 0 auto;
+}
 
 /* NAV START */
 .nav {
