@@ -49,9 +49,18 @@ body {
         padding-left: 1rem;
     }
 }
+main {
+    max-width: 1980px;
+    margin: 0 auto;
+}
 
 /* NAV START */
-.nav {
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile {
     width: 100%;
     display: flex;
     align-items: center;
@@ -60,16 +69,15 @@ body {
     transition: var(--transition-5s);
     padding: 1rem;
     position: relative;
-    
+}
 
-    .nav__logo {
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 2.2rem;
-        transition: var(--transition-3s);
-        text-decoration: none;
-        color: var(--color-blue-dark);
-    }
+.nav__logo {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    transition: var(--transition-3s);
+    text-decoration: none;
+    color: var(--color-blue-dark);
 }
 
 
@@ -78,8 +86,7 @@ body {
     display: none;
     position: absolute;
     top: 100%;
-    left: 79%;
-    padding: 1em;
+    right: 30px;
     background-color: var(--color-white);
     text-align: right;
     border: 1px solid var(--color-blue-light);
