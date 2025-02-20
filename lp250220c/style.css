@@ -327,6 +327,7 @@ section {
     display: flex;
     justify-items: center;
     gap: 1.5rem;
+    margin-top: 5rem;
 
     .content__title,
     .content__text {
