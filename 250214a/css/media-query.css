@@ -127,7 +127,7 @@
         border-radius: 30px;
         margin: 0 80px;
         padding: 80px 80px;
-        background-image: url(./assets/purple-container-desktop.svg);
+        background-image: url(../../assets/purple-container-desktop.svg);
         background-size: cover;
 
         .left-container,
@@ -221,7 +221,7 @@
 
         ::placeholder {
             padding-left: 2rem;
-            background-image: url("./assets/envelope.svg");
+            background-image: url("../../assets/envelope.svg");
             background-repeat: no-repeat;
             background-position: 0.1em;
         }
